@@ -1,0 +1,12 @@
+环境：
+1.Java 6.0+
+2.Eclipse
+3.tomcat 6.0
+4.mysql
+
+工程导入：
+mysqy建立数据库：wordsfor30days
+运行sql文件：wordsfor30days.sql
+eclipse导入war文件：wordsfor30days.war
+修改src下dbSet.properties和WebContent\WEB-INF\lib下dbSet.properties 里面的 数据库用户名、密码
+修改WebContent\WEB-INF\lib下log4j.properties 中log文件目录
